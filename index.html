@@ -3,25 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sticky Notes</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="left-panel">
-            <h1>Sticky Notes</h1>
-            <div class="input-area">
-                <textarea id="noteText" placeholder="// Write a note here"></textarea>
-                <input type="color" id="colorPicker" value="#ffeb3b">
-                <button class="add-note-btn" onclick="addNote()">Add note</button>
-            </div>
-        </div>
-        <div class="right-panel">
-            <h2>Your Notes</h2>
-            <p id="noNotesMessage">You have not added a note yet.</p>
-            <div id="notesContainer"></div>
-        </div>
+    <div class="wrapper">
+        <h1>Press Any Keyboard Key</h1>
+        <p class="keyName key"></p>
+        <p class="keyCode code"></p>
     </div>
-    <script src="script.js"></script>
 </body>
+<script src="javascript.js"></script>
 </html>
